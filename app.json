@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Blank Template",
+    "slug": "Love-Calculator",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "packagerOpts": {
+      "nonPersistent": false
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "app.lovecalculator.com",
+      "versionCode": 1
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "assets/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
